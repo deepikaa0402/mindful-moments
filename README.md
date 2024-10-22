@@ -1,8 +1,26 @@
-# React + Vite
+# Mindful Moments
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Mindful Moments** is a web application designed to help users reflect on their emotions and thoughts through a mood questionnaire and journaling feature. The application offers motivational quotes and advice from sacred texts to encourage mindfulness and self-awareness.
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Features
+
+- **Mood Questionnaire**: Users can select their current mood from a set of options and receive motivational quotes.
+- **Journaling**: Users can write and save their thoughts, reflections, or experiences in a simple and user-friendly interface.
+- **Responsive Design**: The application is designed to work on both desktop and mobile devices.
+
+## Technologies Used
+
+- **Frontend**: 
+  - React
+  - Vite
+  - CSS
+- **Routing**: React Router
