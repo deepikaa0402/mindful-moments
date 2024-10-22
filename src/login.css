@@ -1,0 +1,76 @@
+/* Login */
+
+.login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.login-heading{
+    color:white;
+}
+.login {
+    background-color: #bde0febb; /* Background with transparency */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Soft shadow */
+    max-width: 400px; /* Maximum width */
+    padding: 20px; /* Padding */
+    text-align: center; /* Center text */
+    width: 24em; 
+    height: 20em; 
+}
+.ques-link {
+    margin-top: 15px; /* Space above link */
+    text-decoration: none; /* Remove underline */
+    color: #3498db; /* Color for link */
+    font-weight: bold; /* Bold link */
+}
+
+.ques-link:hover {
+    text-decoration: underline;
+   color: #ec91a3; /* Underline on hover */
+}
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column; /* Stack form elements vertically */
+    margin: 20px 0; /* Add margin to separate from other sections */
+}
+
+form div {
+    margin-bottom: 15px; /* Space between form fields */
+}
+
+label {
+    margin-bottom: 5px; /* Space below label */
+    font-weight: bold; /* Bold labels */
+}
+
+input[type="text"], input[type="password"],
+textarea {
+    padding: 10px; /* Padding inside inputs */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px; /* Rounded corners */
+    width: 100%; /* Full width */
+    box-sizing: border-box; /* Include padding in width */
+}
+
+textarea {
+    resize: vertical; /* Allow vertical resizing */
+}
+
+/* Button Styles */
+button {
+    background-color: #f3a6b6; /* Button background */
+    color: #ffffff; /* White text */
+    padding: 10px 15px; /* Added more horizontal padding */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Change cursor on hover */
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transition for hover */
+}
+
+button:hover {
+    background-color: #f3a6b6; /* Darker blue on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
