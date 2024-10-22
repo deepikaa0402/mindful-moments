@@ -21,6 +21,8 @@
 
 - **Frontend**: 
   - React
+  - HTML
+  - Javascript
   - Vite
   - CSS
 - **Routing**: React Router
